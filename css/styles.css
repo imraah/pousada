@@ -3,6 +3,7 @@
     src: url("./fonts/Montez-Regular.ttf");
 }
 
-h1{
+.paineltitulo{
     font-family: mont;
+    font-size: 70pt;
 }
