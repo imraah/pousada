@@ -1,0 +1,7 @@
+header
+main:
+	1-home
+	2-acomodacao
+	3-reservas
+	4-sobre
+footer

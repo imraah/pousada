@@ -1,0 +1,8 @@
+@font-face {
+    font-family: mont;
+    src: url("./fonts/Montez-Regular.ttf");
+}
+
+h1{
+    font-family: mont;
+}
