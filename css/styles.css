@@ -7,3 +7,24 @@
     font-family: mont;
     font-size: 70pt;
 }
+body{
+    background-image: url("../image/acomodacao10.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+}
+
+section{
+    background-color: white;
+    padding: 80px 30px 80px 30px;
+}
+#home img{
+    width: 80%;
+}
+.acomodacao{
+    padding: 100px 200px;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+
+}
