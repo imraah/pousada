@@ -1,256 +1,451 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pousada</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pousada</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-    
-    <!-- Início da barra de navegação -->
 
-    <nav class="navbar navbar-expand-lg" style="background-color: #01355c;" data-bs-theme="dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Pousada Recanto</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="#home">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#acomodacao">Acomodação</a>
-              </li>
+  <!-- Início da barra de navegação -->
 
-              <li class="nav-item">
-                <a class="nav-link" href="#reservas">Reservas</a>
-              </li>
+  <nav class="navbar navbar-expand-lg" style="background-color: #01355c;" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Pousada Recanto</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#acomodacao">Acomodação</a>
+          </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="#sobre">Sobre</a>
-              </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#reservas">Reservas</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#sobre">Sobre</a>
+          </li>
 
 
-              
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- Fim da barra de navegação -->
+
+  <header>
+
+    <!-- Inicio do carousel -->
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="image/painel1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="paineltitulo">Pousada Recanto</h5>
+            <p>O melhor lugar para as suas férias</p>
           </div>
         </div>
-      </nav>
-
-    <!-- Fim da barra de navegação -->
-
-    <header>
-
-        <!-- Inicio do carousel -->
-
-        <div id="carouselExampleCaptions" class="carousel slide">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="image/painel1.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5 class="paineltitulo">Pousada Recanto</h5>
-                  <p>O melhor lugar para as suas férias</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="image/painel2.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5 class="paineltitulo">Pousada Recanto</h5>
-                  <p>Encontre o descanso que você precisa</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="image/painel3.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5 class="paineltitulo">Pousada Recanto</h5>
-                  <p>Todo o lazer que a sua família precisa</p>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-
-        <!-- fim do carousel -->
-
-
-    </header>
-    <main>
-        <section id="home">
-
-          <div class="row">
-            <div class="col-md-6">
-              <img src="image/loby2.jpg" alt="">
-            </div>
-            <div class="col-md-6">
-              <h2>Bem Vindo a nossa pousada</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem nesciunt saepe at voluptatibus iste consectetur molestiae doloribus maiores dolorum veritatis. Optio neque molestiae minima at odit assumenda ipsum officiis in!</p>
-              <h5>Venha com a sua família</h5>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime magnam sit rerum reiciendis, accusamus, optio eligendi impedit quam facere eum doloremque! Voluptate dolore ipsam necessitatibus deserunt at reiciendis tenetur blanditiis.</p>
-            </div>
-          </div>
-
-        </section>
-
-        <div class="row acomodacao">
-          <div class="col-md-12">
-            <h3>Acomodação</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem rerum, dolor quae quidem explicabo dolorum? Natus dolores, perspiciatis excepturi fuga alias a. Ipsa praesentium corrupti quia voluptas, ad impedit dolor.</p>
+        <div class="carousel-item">
+          <img src="image/painel2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="paineltitulo">Pousada Recanto</h5>
+            <p>Encontre o descanso que você precisa</p>
           </div>
         </div>
+        <div class="carousel-item">
+          <img src="image/painel3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="paineltitulo">Pousada Recanto</h5>
+            <p>Todo o lazer que a sua família precisa</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 
-        <section id="acomdacao">
+    <!-- fim do carousel -->
 
-          <div class="row">
-            <div class="col-md-6">
 
-              <div class="card mb-3">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="image/acomodacao9.jpg" data-bs-toggle="modal" data-bs-target="#acomodacao1" class="img-fluid rounded-start" style="height:180px" alt="...">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                    </div>
-                  </div>
+  </header>
+  <main>
+    <section id="home">
+
+      <div class="row">
+        <div class="col-md-6">
+          <img src="image/loby2.jpg" alt="">
+        </div>
+        <div class="col-md-6">
+          <h2>Bem Vindo a nossa pousada</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem nesciunt saepe at voluptatibus iste
+            consectetur molestiae doloribus maiores dolorum veritatis. Optio neque molestiae minima at odit assumenda
+            ipsum officiis in!</p>
+          <h5>Venha com a sua família</h5>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime magnam sit rerum reiciendis, accusamus,
+            optio eligendi impedit quam facere eum doloremque! Voluptate dolore ipsam necessitatibus deserunt at
+            reiciendis tenetur blanditiis.</p>
+        </div>
+      </div>
+
+    </section>
+
+    <div class="row acomodacao">
+      <div class="col-md-12">
+        <h3>Acomodação</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem rerum, dolor quae quidem explicabo dolorum?
+          Natus dolores, perspiciatis excepturi fuga alias a. Ipsa praesentium corrupti quia voluptas, ad impedit dolor.
+        </p>
+      </div>
+    </div>
+
+    <section id="acomdacao">
+
+      <div class="row">
+        <div class="col-md-6">
+
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="image/acomodacao9.jpg" data-bs-toggle="modal" data-bs-target="#acomodacao1"
+                  class="img-fluid rounded-start" style="height:180px" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
                 </div>
               </div>
             </div>
-            <div class="col-md-6">
+          </div>
+        </div>
+        <div class="col-md-6">
 
-              <div class="card mb-3">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="image/acomodacao10.jpg" data-bs-toggle="modal" data-bs-target="#acomodacao2" style="height: 180px;" class="img-fluid rounded-start" alt="...">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                    </div>
-                  </div>
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="image/acomodacao10.jpg" data-bs-toggle="modal" data-bs-target="#acomodacao2"
+                  style="height: 180px;" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
                 </div>
               </div>
+            </div>
+          </div>
 
+        </div>
+      </div>
+
+
+
+
+      <div class="row">
+        <div class="col-md-6">
+
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="image/acomodacao9.jpg" data-bs-toggle="modal" data-bs-target="#acomodacao1"
+                  class="img-fluid rounded-start" style="height:180px" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="image/acomodacao10.jpg" data-bs-toggle="modal" data-bs-target="#acomodacao2"
+                  style="height: 180px;" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+
+      <!-- ######## área da gastronomia ####### -->
+
+      <h3 class="gastronomia">Nossa culinária</h3>
+      <div class="row">
+        <div class="col-md-6">
+
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="image/gastronomia10.jpg" style="height: 180px;" class=" img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional
+                    content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
             </div>
           </div>
 
 
 
-          
-          <div class="row">
-            <div class="col-md-6">
+        </div>
+        <div class="col-md-6">
 
-              <div class="card mb-3">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="image/acomodacao9.jpg" data-bs-toggle="modal" data-bs-target="#acomodacao1" class="img-fluid rounded-start" style="height:180px" alt="...">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                    </div>
-                  </div>
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="image/gastronomia4.jpg" style="height: 180px;" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional
+                    content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
                 </div>
               </div>
-            </div>
-            <div class="col-md-6">
-
-              <div class="card mb-3">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="image/acomodacao10.jpg" data-bs-toggle="modal" data-bs-target="#acomodacao2" style="height: 180px;" class="img-fluid rounded-start" alt="...">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
             </div>
           </div>
 
-        </section>
-        <section id="reservas"></section>
-        <section id="sobre"></section>
 
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+          <!-- ####### fim da área gastronomia ###### -->
 
+    </section>
 
-    </main>
-    <footer></footer>
+    <div class="row reservas">
+      <div class="col-md-12">
 
-
-
-    <!-- ################# Área dos modais ################# -->
-
-
-<!-- Modal para acomodacao1-->
-<div class="modal fade" id="acomodacao1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Suite Simples</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <h3>Reservas</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit impedit eveniet ea. Eaque, ut magni eius, cum
+          minus, sunt quas obcaecati accusantium quis corrupti doloribus ex et cumque aperiam tenetur!</p>
       </div>
-      <div class="modal-body">
-      <img src="image/acomodacao9.jpg" style="width: 100%;" alt="">
-      </div>
-      <div class="modal-footer">
-      
+    </div>
+
+
+    <section id="reservas">
+
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="txtnone" class="form-label">Nome Completo</label>
+          <input type="text" class="form-control" id="txtnone">
+        </div>
+        <div class="col-md-6">
+          <label for="txtemail" class="form-label">E-mail</label>
+          <input type="email" class="form-control" id="txtemail">
+        </div>
+
+
+
+
+        <div class="col-md-3">
+          <label for="txttelefone" class="form-label">Telefone</label>
+          <input type="tel" class="form-control" id="txt.telefone" placeholder="(11) 99999-9999">
+        </div>
+
+        <div class="col-md-3">
+          <label for="txtcheckin" class="form-label">Check-in</label>
+          <input type="date" class="form-control" id="txtcheckin" placeholder="Data de entrada">
+        </div>
+
+
+        <div class="col-md-3">
+          <label for="txtcheckout" class="form-label">Check-out</label>
+          <input type="date" class="form-control" id="txtcheckout" placeholder="Data de entrada">
+        </div>
+
+
+        <div class="col-md-3">
+          <label for="txtquarto" class="form-label">Escolha o Tipo de Quarto</label>
+          <select name="txtquarto" class="form-control">
+            <option value="Standard">Standard</option>
+            <option value="Double">Double</option>
+            <option value="Luxo">Luxo</option>
+            <option value="Master">Master</option>
+          </select>
+
+        </div>
+
+
+
+
+        <div class="col-12">
+          <label for="txtobservacao" class="form-label">Observação</label>
+
+          <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
+        </div>
+
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Reservar</button>
+        </div>
+      </form>
+
+
+
+    </section>
+
+
+
+    <section id="sobre"></section>
+
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+
+
+  </main>
+  <footer></footer>
+
+
+
+  <!-- ################# Área dos modais ################# -->
+
+
+  <!-- Modal para acomodacao1-->
+  <div class="modal fade" id="acomodacao1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Suite Simples</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="image/acomodacao9.jpg" style="width: 100%;" alt="">
+        </div>
+        <div class="modal-footer">
+
+        </div>
       </div>
     </div>
   </div>
-</div>
-<!-- Fim do modal acomodacao 1 -->
+  <!-- Fim do modal acomodacao 1 -->
 
 
 
 
-    <!-- ############# Fim da área dos modais ################################# -->
+  <!-- ############# Fim da área dos modais ################################# -->
 
 
 
@@ -258,8 +453,9 @@
 
 
 
-    <script src="js/propper.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+  <script src="js/propper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 
 </body>
+
 </html>
